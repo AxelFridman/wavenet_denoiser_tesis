@@ -1,0 +1,95 @@
+country,gender,speech_text,audio_file_name
+colombia.,female,Nunca he visto una casa color azul marino.,audioPocos/cof_03034_00693994579
+colombia.,male,Las teclas de la computadora necesitan estar desgastadas para la filmación,audioPocos/com_03349_01089714460
+argentina.,female,No me gustan los bares donde hay poca gente.,audioPocos/arf_06592_00667596930
+argentina.,male,¿Deseas avisar a tu familia que estás bien?,audioPocos/arm_04310_01373377983
+argentina.,female,Ayer ví a un amigo que no veía desde la secundaria.,audioPocos/arf_06592_01938817674
+peru.,female,"Oye, me ayudas a buscar una compañía de mudanzas que necesito contratar una.",audioPocos/pef_07049_00029548546
+argentina.,male,"Voy a seguir indagando en eso, al rato te hablo",audioPocos/arm_08421_00189417028
+colombia.,male,El caballo está amarrado,audioPocos/com_02436_00523764655
+peru.,male,¿Quisiera saber qué está pasando en el mundo financiero local?,audioPocos/pem_06136_00956740931
+argentina.,male,¿Me puedes pasar tus datos para comprarte la computadora?,audioPocos/arm_05223_01376009261
+argentina.,female,¿Querés vivir sola?,audioPocos/arf_01208_01801301665
+argentina.,female,Hace doce grados con sol,audioPocos/arf_02485_01411267058
+argentina.,female,La ciudad es bellísima y tan alegre,audioPocos/arf_03397_00743834421
+argentina.,female,Vamos a usar la app de la embajada de Egipto que es para gente que no sabe nada de árabe,audioPocos/arf_05223_00227673496
+argentina.,male,Hoy voy a realizar uno de mis sueños de la infancia,audioPocos/arm_04310_00169970783
+peru.,male,Quiero divertirme ésta noche ¿a dónde me recomendarías ir?,audioPocos/pem_05223_01483264598
+peru.,male,Creo que necesitas una cita con el doctor.,audioPocos/pem_02436_01911159904
+colombia.,male,La pronunciación del francés es difícil,audioPocos/com_03349_00894877493
+argentina.,female,¿En cuántos juegos africanos ha participado?,audioPocos/arf_05679_00978797256
+colombia.,male,¿Cuáles son las zonas dónde hay carriles de bicicletas?,audioPocos/com_06136_00185922478
+colombia.,female,Las resonancias magnéticas del cerebro humano son muy complejas de interpretar,audioPocos/cof_08421_01031635736
+venezuela.,female,Su trabajo es arriesgado y profundo,audioPocos/vef_05223_01948465053
+colombia.,female,Los cabecillas de la banda huyeron a caballo,audioPocos/cof_07049_00742924627
+venezuela.,male,Mañana va a hacer mucho calor,audioPocos/vem_08784_00003162973
+venezuela.,male,Uno de los beneficios de tener una bicicleta es que no contaminan al medio ambiente.,audioPocos/vem_06136_01855661371
+colombia.,female,Más o menos se demora media hora en hacer esa receta,audioPocos/cof_03397_00785123660
+argentina.,female,¿Cómo se llama el gobernador de Veracruz?,audioPocos/arf_09697_00382784697
+peru.,male,La ciudad es bellísima y tan alegre,audioPocos/pem_02121_00721350119
+venezuela.,male,Hay nuevos canales de audio en cada una de las salas de cine donde cada quien puede escuchar la película según su acento,audioPocos/vem_02484_02139280977
+venezuela.,female,Estacione el coche en una zona plana y segura y encienda las luces intermitentes,audioPocos/vef_04310_00424904701
+argentina.,female,Los corazones de pollo son una delicia,audioPocos/arf_01523_01068575935
+argentina.,female,La oscuridad del pozo era obscena por naturaleza,audioPocos/arf_05679_00795539672
+argentina.,female,¿Cuáles son las principales diferencias?,audioPocos/arf_03349_00520760457
+argentina.,male,¿Cuál fue el último disco que grabaron?,audioPocos/arm_08421_00475749329
+peru.,female,Quiero saber que tipo pizza es la más saludable.,audioPocos/pef_02436_00806788846
+colombia.,female,Esa palabra no tiene origen conocido,audioPocos/cof_08784_01813155197
+argentina.,female,Mañana va a hacer mucho calor,audioPocos/arf_07508_00764321116
+argentina.,female,"Las tejas rojas del tejado no son de México, son de Texas",audioPocos/arf_06592_02124244736
+colombia.,male,Estoy buscando un restaurante Japonés,audioPocos/com_03397_00063925772
+colombia.,male,Hay muchas personas involucradas del mundo de la política en ese caso en especial,audioPocos/com_01523_00962087246
+argentina.,female,¿Sabes silbar?,audioPocos/arf_07505_00902097956
+colombia.,female,El jeroglífico tiene un pez amarillo,audioPocos/cof_02484_00353735337
+colombia.,female,Quiero bajar un programa o algo donde yo pueda entender el idioma,audioPocos/cof_00610_00655967363
+peru.,male,Le recomiendo los Alpes Suizos,audioPocos/pem_09697_00657262710
+venezuela.,male,La nave encalló en los arrecifes,audioPocos/vem_06136_00935506250
+peru.,male,"El tipo de pantalla que se maneja es de alta tecnología, ves los pixeles a una alta resolución",audioPocos/pem_02121_00604478963
+peru.,female,Hay que ponernos de acuerdo,audioPocos/pef_02121_02115280789
+peru.,male,¿Cuáles son los cines más cercanos a mi hotel?,audioPocos/pem_07049_01299470893
+peru.,male,"¿La suite la quiere con tina de baño, ducha o jacuzzi?",audioPocos/pem_06136_01751454833
+colombia.,male,Ésta computadora es ideal para tus necesidades personales y laborales,audioPocos/com_02484_01041055889
+venezuela.,female,A_letter un kilómetro y medio hacia el oeste de su casa hay una tienda de disfraces,audioPocos/vef_06136_00241586399
+peru.,female,"Ya no quiero usar tanto mi carro, quiero usar más la bicicleta",audioPocos/pef_08784_00694860914
+peru.,male,Una playa poco turista suena genial pero no si es demasiado difícil llegar.,audioPocos/pem_07049_00936009426
+argentina.,female,¿Cuántas medallas ha ganado?,audioPocos/arf_05679_00640255156
+venezuela.,female,¿Es cierto que la popularidad del presidente está decayendo?,audioPocos/vef_07049_00057656600
+colombia.,male,¿Cómo anda de tiempo señor?,audioPocos/com_07508_00425255435
+venezuela.,female,Estoy por mudarme y quiero buscar nuevos departamentos donde acepten mascotas,audioPocos/vef_07508_01870974883
+colombia.,male,Tradicionalmente la comida italiana se acompaña con vino rojo,audioPocos/com_08784_00228186532
+argentina.,female,Estoy muy emocionado porque está Santana acá en Monterrey,audioPocos/arf_04310_01586138687
+argentina.,female,Hace trece grados y está nublado,audioPocos/arf_02485_01916222285
+argentina.,male,Los zapatos se estropearon con la lluvia torrencial de ayer,audioPocos/arm_07508_02012749457
+peru.,female,Esa información no está del todo verificada,audioPocos/pef_07508_01290299601
+colombia.,female,Uno nunca deja de aprender.,audioPocos/cof_03034_01582985547
+argentina.,female,¿Qué puedo hacer si llueve hoy?,audioPocos/arf_03034_00124602854
+venezuela.,male,El jugador salió en el minuto catorce por una molestia en el muslo derecho,audioPocos/vem_08421_01389527196
+venezuela.,female,¿A_letter qué hora termina el espectáculo?,audioPocos/vef_06136_00574540660
+peru.,female,En el centro hay unos muy buenos bares con pantallas de plasma de sesenta pulgadas para disfrutar bien el partido,audioPocos/pef_04310_01783593448
+venezuela.,male,Hoy decidí dejar de ser diseñadora de interiores,audioPocos/vem_00610_00367022316
+argentina.,female,No te entiendo nada,audioPocos/arf_03349_01032046631
+peru.,male,El jugador salió en el minuto veintinueve por una molestia en el tobillo izquierdo,audioPocos/pem_04310_00997200340
+peru.,male,No te recomiendo que compres un carro usado porque es muy difícil saber en qué condición se encuentra.,audioPocos/pem_07049_01884423634
+venezuela.,male,Para hacer esa receta no necesitas mucha pimienta negra,audioPocos/vem_03397_01347985545
+colombia.,female,Hazme la cita con el doctor.,audioPocos/cof_08421_01597746806
+argentina.,female,¿Cuántas medallas ha ganado?,audioPocos/arf_02121_00098417517
+colombia.,female,Los zapatos se estropearon por la lluvia torrencial de ayer,audioPocos/cof_01523_00872061424
+peru.,male,Es un medicamento que todavía está en fase experimental y puede ocasionar problemas con los efectos secundarios,audioPocos/pem_02121_00354300664
+argentina.,female,"Ramón, ¿podrás proponer alguna película para hoy a la noche?",audioPocos/arf_01523_01360624606
+peru.,female,"Según estadísticas del gobierno, hay más accidentes de ciclistas que de peatones.",audioPocos/pef_09334_00429306333
+venezuela.,male,Volar en avión en años recientes es muy incómodo en clase turista sobre todo si eres grande,audioPocos/vem_09334_01973206610
+colombia.,female,¿Sabes escanear libros?,audioPocos/cof_08421_00789855600
+peru.,female,Las temáticas de la últimas exposiciones en el museo han sido poco variadas.,audioPocos/pef_09334_02114259432
+peru.,female,¿Hay algún vuelo más económico pasando por las islas Canarias?,audioPocos/pef_01208_01781544193
+argentina.,male,Los cuentos de hadas no le gustan.,audioPocos/arm_01523_01882479989
+peru.,male,¿Y tienes algo en mente en cuestión de precio?,audioPocos/pem_02436_01121973477
+peru.,male,Quiero escuchar la mejor música pop de los años ochenta.,audioPocos/pem_07049_00132389842
+peru.,female,Tiene una película muy famosa que se llama Ojos Bien Cerrados,audioPocos/pef_04310_00578927491
+colombia.,male,Busca bolsas que cuesten entre tres mil y cinco mil pesos.,audioPocos/com_02436_01818883100
+peru.,male,El caballo está amarrado,audioPocos/pem_02484_00719739725
+venezuela.,male,Los hamster comen zanahorias,audioPocos/vem_03397_00904616643
+colombia.,male,¿Puedes ayudarme a meditar?,audioPocos/com_02484_01698402254
+peru.,female,Te voy a mandar el menú de comida a tu correo electrónico.,audioPocos/pef_07049_00572242355
+venezuela.,male,¿Hay algún vuelo más económico pasando por las islas Canarias?,audioPocos/vem_09697_01861098743
+colombia.,female,El jeroglífico tiene un pez amarillo,audioPocos/cof_08784_00169356796
+argentina.,female,Hace dieciseis grados y está nublado,audioPocos/arf_03398_01690961333

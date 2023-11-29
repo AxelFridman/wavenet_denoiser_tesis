@@ -1,0 +1,11 @@
+,country,gender,speech_text,audio_file_name
+100,colombia.,female,Los libros electrónicos tienen un mercado y los libros en papel otro,audioValidation/cof_08421_00816760654
+101,argentina.,female,La oscuridad del pozo era obscena por naturaleza,audioValidation/arf_01523_00162500844
+102,venezuela.,male,Los higados de pollo me encantan,audioValidation/vem_00610_00611744017
+103,peru.,male,El frío me gusta mucho,audioValidation/pem_00295_01484556578
+104,argentina.,male,"Según el noticiero de Aristegui Noticias el periodista era inocente, pero según Reforma era culpable.",audioValidation/arm_00610_00592700854
+105,colombia.,female,Los muebles de madera de pino son los más duraderos,audioValidation/cof_08421_01251588921
+106,peru.,male,¿Deseas enviar datos a tus amigos de que estas bien?,audioValidation/pem_00610_02110517936
+107,peru.,male,Búscame clases para aprender a andar en bici.,audioValidation/pem_03349_01378257750
+108,argentina.,female,¿Me podés ayudar con el formulario?,audioValidation/arf_03349_01455402416
+109,peru.,female,Hoy en la tarde saqué mi tarjeta para la bicicleta urbana,audioValidation/pef_09697_01454804479

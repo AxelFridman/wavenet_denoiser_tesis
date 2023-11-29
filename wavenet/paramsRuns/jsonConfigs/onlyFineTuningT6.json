@@ -1,0 +1,158 @@
+{    
+    "nameOfRun": "onlyFineTuningT6",
+
+    "hardwareAndSize":{
+        "device": "cuda",
+        "sample_rate" : 16000,
+        "inputSize": 32000,
+        "batch_size": 1
+     },
+    
+    "fileLocations":{
+        
+        "directoryBase": "/home/afridman",
+        "saveTensorboardLocation" : "/home/afridman/extra/registros",
+
+        "preTrainLocations": {
+            "csvAudioFile" :  "/wavenet/CSV/newCSV/audiosTrain.csv",
+            "folderAudioFiles": "/extra/16000AudioPaises",
+            "folderIRFiles": "/extra/irDivididos/16000/irtrain",
+            "csvNoiseFile": "/wavenet/CSV/ruido_train.csv",
+            "folderNoiseFiles": "/extra/ruidosDivididos/16000"
+        },
+    
+       "FineTuneLocations": {
+            "csvAudioFile" :  "/wavenet/CSV/newCSV/audiosTrain.csv",
+            "folderAudioFiles": "/extra/16000AudioPaises",
+            "folderIRFiles": "/extra/irDivididos/16000/irtrain",
+            "csvNoiseFile": "/wavenet/CSV/ruido_train.csv",
+            "folderNoiseFiles": "/extra/ruidosDivididos/16000"
+        },
+    
+        "MiniValLocations": {
+            "csvAudioFile" : "/wavenet/CSV/newCSV/audiosMiniVal.csv",
+            "folderAudioFiles": "/extra/16000AudioPaises",
+            "folderIRFiles": "/extra/irDivididos/16000/irval",
+            "csvNoiseFile": "/wavenet/CSV/ruido_validation.csv",
+            "folderNoiseFiles": "/extra/ruidosDivididos/16000"
+        },
+    
+        "FullValLocations": {
+            "csvAudioFile" : "/wavenet/CSV/newCSV/audiosVal.csv",
+            "folderAudioFiles": "/extra/16000AudioPaises",
+            "folderIRFiles": "/extra/irDivididos/16000/irval",
+            "csvNoiseFile": "/wavenet/CSV/ruido_validation.csv",
+            "folderNoiseFiles": "/extra/ruidosDivididos/16000"
+        }
+        
+
+    },
+    
+    "noiseConfigs": {
+        "trainDifficulty":{
+            "maxRuido": 0.0,
+            "snr":0,
+            "add_impulse_response":true,
+            "DificultadReverb":0.0,
+            "useDistortions":false,
+            "min_snr_coef": 0.75,
+            "min_white_noise_coef": 0.1
+        },
+
+        "learningCurriculum":{
+            "stepsTillDificultyIncrement":[416, 624, 1248, 1876, 2500, 2800, 3124, 3400,
+                                           3750, 4000, 4370, 4700, 5000, 5310, 5624, 6250],
+            "maxRuidoChange":[0,    0,   0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0],
+            "SNRChange":     [0.01, 0.02,0.04, 0.06, 0.08, 0.10, 0.12, 0.14, 0.16, 0.18, 0.20, 0.22, 0.24, 0.26, 0.28, 0.30],
+            "ReverbChange":  [0   ,0    ,0.01, 0.05, 0.07, 0.1,  0.12, 0.15, 0.17, 0.2,  0.22, 0.25, 0.27, 0.30, 0.32, 0.35]
+        },
+        "validationDifficulty":{
+            "maxRuido": 0.0,
+            "snr":0.30,
+            "add_impulse_response":true,
+            "DificultadReverb":0.35,
+            "useDistortions":false,
+            "min_snr_coef": 0.75,
+            "min_white_noise_coef": 0.1
+        }
+    },
+
+    
+    "wavenetParams":{
+        "layer_size": 10,
+        "stack_size": 2,
+        "in_channels": 1,
+        "res_channels": 128,
+        "use_batch_norm_Wave":false,
+        "use_dropout_Wave":0.0
+    },
+    
+    "postnetParams":{
+               "layers":12, 
+               "kernel_size":33, 
+               "channels":128,
+               "use_batch_norm_Post":false,
+               "use_dropout_Post":0.0
+              },
+    
+
+    "trainingHyperParameters":{
+        "PostnetActivated":false,
+        "postActivateInSteps":105000,
+        "wavenetParamsFrozen":false, 
+        
+        "discriminatorTraining": false,
+        "discriminatorRestart": true,
+        
+        "preTrainEpochs": 10,
+        "fineTuneEpochs": 5,
+        "log_every_n_steps": 6,
+        "accumulate_grad_batches": 6,
+
+        "learning_rate": 0.001,
+        "learning_rate_decay_time" : 20000,
+        "learning_rate_decay" : 0.85
+    },
+    
+
+
+    "savingAndLogging":{
+        "useSavedModel": false,
+        "nameOfModelSaved": "/home/afridman/wavenet/modelos/paramsRuns/onlyFineTuningT6.pth",
+
+        "saveModelIntervalEpochs": 100,
+        "val_check_interval": 1000,
+        "min_delta": 0.01,
+        "patience": 15,
+        "howManyAudiosValidationsSave":2
+    },
+    
+    "lossesConfig":{
+        "epsilon" : 0.00000001,
+        "min_db_precision" : 60,
+        
+        "melspec1Config":{
+                "n_fft":2048,
+                "n_mels":120,
+                "hop_length":512
+        },
+        
+        "melspec2Config":{
+                "n_fft":512,
+                "n_mels":80,
+                "hop_length":128
+        }
+    },
+    
+    "weightsOfLosses":{
+        "postnetWeightRelativeToWavenet": 3,
+        "max_weight_short_pitch": 1,
+        "weightOfMelspecLoss1": 0.00,
+        "weightOfMelspecLoss2": 0.00,
+        "weightOfL1Loss": 10,
+        "weightOfCustomLoss": 0.0000,
+        "weightOfLogLoss": 0,
+        "weightOfAmplitudeLoss": 0,
+        "weightOfDiscriminatorLoss":0
+    }
+}
