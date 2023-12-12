@@ -33,10 +33,10 @@ from torchmetrics.audio import SpeechReverberationModulationEnergyRatio
 from torchmetrics.audio import SignalNoiseRatio
 
 import librosa
-import tensorflow as tf
+#import tensorflow as tf
 import io
 from PIL import Image
-from prettytable import PrettyTable
+#from prettytable import PrettyTable
 import json
 
 

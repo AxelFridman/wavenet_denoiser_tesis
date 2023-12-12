@@ -29,10 +29,8 @@ from pytorch_lightning.callbacks import Callback
 
 
 import librosa
-import tensorflow as tf
 import io
 from PIL import Image
-from prettytable import PrettyTable
 import json
 
 import wavenet
